@@ -63,7 +63,7 @@ df
 </style>
 <table border="1" class="dataframe">
   <thead>
-    <tr style="text-align: right;">
+    <tr>
       <th></th>
       <th>col1</th>
       <th>col2</th>
@@ -142,5 +142,5 @@ py.iplot(fig, filename='color-bar')
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 <div id="7db3ddfb-934a-4026-a3ad-db1afc59ab02" style="height: 100%; width: 100%;" class="plotly-graph-div"></div><script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("7db3ddfb-934a-4026-a3ad-db1afc59ab02", [{"type": "bar", "x": ["Feature A", "Feature B", "Feature C", "Feature D", "Feature E"], "y": [20, 14, 23, 25, 22], "marker": {"color": ["rgba(204,204,204,1)", "rgba(222,45,38,0.8)", "rgba(204,204,204,1)", "rgba(204,204,204,1)", "rgba(204,204,204,1)"]}}], {"title": "Least Used Feature"}, {"showLink": true, "linkText": "Export to plot.ly"})</script>
 
-Download this notebook as html.
+Download this notebook as markdown.
 
