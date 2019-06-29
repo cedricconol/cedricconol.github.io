@@ -4,7 +4,7 @@ title:  "Jupyter Generated Blog"
 author: john
 categories: [ Jupyter, tutorial ]
 tags: [red, yellow]
-image: #assets/images/11.jpg
+image: /assets/images/jupyter-blog-image.png
 description: "Generate a blog from Jupyter Notebook"
 featured: true
 hidden: true
@@ -12,7 +12,7 @@ rating: 4.5
 ---
 
 
-This blog post is created using Jupyter Notebook.
+This blog post was created using Jupyter Notebook.
 
 Sample python code block.
 
