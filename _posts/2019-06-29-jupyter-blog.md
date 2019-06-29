@@ -4,7 +4,7 @@ title:  "Jupyter Generated Blog"
 author: john
 categories: [ Jupyter, tutorial ]
 tags: [red, yellow]
-image: /assets/images/jupyter-blog-image.png
+image: assets/images/jupyter-blog-image.png
 description: "Generate a blog from Jupyter Notebook"
 featured: true
 hidden: true
