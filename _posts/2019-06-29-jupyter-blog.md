@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Jupyter Generated Blog"
-author: john
+author: 
 categories: [ Jupyter, tutorial ]
 tags: [red, yellow]
 image: assets/images/jupyter-blog-image.PNG
