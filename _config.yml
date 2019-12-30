@@ -1,6 +1,6 @@
 # Site
-name: "Cedric Conol MS in Data Science"
-title: "Cedric Conol MS in Data Science"
+name: "Cedric Conol, MS in Data Science"
+title: "Data Science Portfolio"
 description: "Data Science Portfolio"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
@@ -14,8 +14,8 @@ permalink: /:title/
 # Authors
 authors:
   sal:
-    name: Ced1
-    display_name: Ced1
+    name: Ced
+    display_name: Ced
     gravatar: #e56154546cf4be74e393c62d1ae9f9d4
     email: cconol@aim.com
     web: #https://www.wowthemes.net

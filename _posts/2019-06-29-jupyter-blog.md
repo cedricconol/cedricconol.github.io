@@ -7,8 +7,6 @@ tags: [red, yellow]
 image: assets/images/jupyter-blog-image.PNG
 description: "Generate a blog from Jupyter Notebook"
 featured: true
-hidden: true
-rating: 4.5
 ---
 
 
