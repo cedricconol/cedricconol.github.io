@@ -334,7 +334,7 @@ To compute for the chi-square test statistic and critical value, `chi2_contigenc
 
 The computed chi-square test statistic using `chi2_contingency` is 9031.31. The formula for this computation is discussed [here](https://stattrek.com/chi-square-test/independence.aspx).
 
-To compute the critical value, `chi2.ppf` requires the lower tail probability and the degree of freedom. Lower tail probability can be computed by subtracting the significance level from 1, which then results to 0.95. Degree of freedom, also known as the shape parameter, is equal to $(r-1)*(c-1)$ where `r` and `c` are the number of rows and columns respectively (2 and 496) and is computed to be 495. Using these values, the critical value can then be computed using the percent point function of `chi2`, which is equal to 547.87.
+To compute the critical value, `chi2.ppf` requires the lower tail probability and the degree of freedom. Lower tail probability can be computed by subtracting the significance level from 1, which then results to 0.95. Degree of freedom, also known as the shape parameter, is equal to $(r-1)*(c-1)$ where $r$ and $c$ are the number of rows and columns respectively (2 and 496) and is computed to be 495. Using these values, the critical value can then be computed using the percent point function of `chi2`, which is equal to 547.87.
 
 Since the chi-square test statistic (9031.31) is greather than the critical value (547.87), **the null hypothesis is not accepted**.
 
