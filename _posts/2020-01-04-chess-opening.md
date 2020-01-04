@@ -170,9 +170,6 @@ The first 10 rows of the dataset is shown below.
 </div>
 
 
-
-### Meta Data
-
 **Column description**
 1. **`opening`**: code of the opening move according to [http://www.chessgames.com/chessecohelp.html](http://www.chessgames.com/chessecohelp.html)
 2. **`wplayer`**: name of the player controlling white pieces
