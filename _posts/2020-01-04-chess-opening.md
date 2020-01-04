@@ -354,4 +354,4 @@ This project worked under the assumption that opening moves can only be performe
 
 ### Final Notes
 
-This project was co-authored by [Rosely Peña](linkedin.com/in/roselydpena) as part of our requirements in Masters of Science in Data Science statistics course. If you wish to have a copy of the data and the code used in this project, you may send me a message via [Linked in](https://www.linkedin.com/in/conolcedric).
+This project was co-authored by [Rosely Peña](linkedin.com/in/roselydpena) as part of our requirements in MS in Data Science's Applied Computational Statistics course. If you wish to have a copy of the data and the code used in this project, you may send me a message via [Linked in](https://www.linkedin.com/in/conolcedric).
