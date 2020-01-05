@@ -182,7 +182,7 @@ The first 10 rows of the dataset is shown below.
 
 ### Exploratory Data Analysis
 
-Scraped data contains 920,458 games. The earliest game on record dates back 1475, with 21 moves, this match was won by Castellvi over Vinyoles in Valencia. Approximately, a third of the matches resulted in a draw (311831). By barely looking at the winning percentages, it is evident that white enjoys the [first-mover advantage](https://en.wikipedia.org/wiki/First-move_advantage_in_chess), winning 38.2% (351565) of matches while black only won 27.9% (257062) of the time.
+Scraped data contains 920,458 games. The earliest game on record dates back 1475, in 21 moves, this match was won by Castellvi over Vinyoles in Valencia. Approximately, a third of the matches resulted in a draw (311831). By barely looking at the winning percentages, it is evident that white enjoys the [first-mover advantage](https://en.wikipedia.org/wiki/First-move_advantage_in_chess), winning 38.2% (351,565) of matches while black only won 27.9% (257,062) of the time.
 
 Figure below shows the top 10 most used openings. 3 most used openings are `A07` (`King's Indian Attack`), `A04` (`Reti Opening`), and `D02` (`Queen's Pawn Game`) which were used in 26,295, 14,386, and 12,883 games respectively.  Hover your mouse pointer on the figure to see the number of games for each of the most used openings. To see the actual names of the openings, please refer to [this](http://www.chessgames.com/chessecohelp.html) link.
 
@@ -211,9 +211,9 @@ Figure below shows the top 10 most used openings. 3 most used openings are `A07`
 </body>
 </html>
 
-But does the popularity of opening always mean winning? To answer this question, we have to look at the winning percentages of the openings. **It is assumed that openings are used only by the white player thus win percentage is calculated as the number of times white won when using a particular opening divided by the number of games that opening was used in the entire dataset.** 
+But does the popularity of opening always mean winning? To answer this question, we have to look at the winning percentages of the openings. **In this study, it is assumed that openings are used only by the white player thus win percentage is calculated as the number of times white won when using a particular opening divided by the number of games that opening was used in the entire dataset.** 
 
-Please note that some openings only have a few games on record and some of them have 100% winning percentages and should therefore be exluded. To filter the less used openings, only the ones with frequency above the 25th percentile were considered or openings which were used on at least 460 (25th percentile) games.
+Please note that some openings only have a few games on record and some of them have 100% win percentage and should therefore be excluded. To filter the less used openings, only the ones with frequency above the 25th percentile were considered or openings which were used on at least 460 (25th percentile) games.
 
 The figure below shows the 10 openings with the highest win percentage. `D06` (`Queen's Gambit Declined`) had the highest win percentage at 62.3% followed by `C37` (`King's Gambit Accepted`) with 56.8% and `C62` (`Ruy Lopez, Old Steinitz Defense`) with 56.6%. The most popular opening, `A07`, ranked 7th with 51.2% win percentage. 
 
@@ -261,9 +261,10 @@ This test does not consider directionality, that is, it is not of relevance whet
 
 To compute for the chi-square test statistic and critical value, `chi2_contigency` and `chi2` modules from `scipy.stats` will be used respectively.
 
-`chi2_contigency` function requires a contingency table. A contingency table is a table where columns and rows are the nominal categorical variables that needs to be tested. In this problem, the variables are the outcome of the game and the openings, thus, the contigency table have game outcomes as rows and openings as columns.
+`chi2_contigency` function requires a contingency table. A contingency table is a table where columns and rows are the nominal categorical variables that needs to be tested, table values are the frequencies of occurence. In this problem, the variables are the outcome of the game and the openings, thus, the contingency table have game outcomes as rows, openings as columns and values are the frequencies of occurence of outcome-opening combinations.
 
 **Contingency Table**
+Shown below is a portion of the contigency table used in this problem.
 
 <div>
 <style scoped>
