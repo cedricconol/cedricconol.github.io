@@ -264,6 +264,7 @@ To compute for the chi-square test statistic and critical value, `chi2_contigenc
 `chi2_contigency` function requires a contingency table. A contingency table is a table where columns and rows are the nominal categorical variables that needs to be tested, table values are the frequencies of occurence. In this problem, the variables are the outcome of the game and the openings, thus, the contingency table have game outcomes as rows, openings as columns and values are the frequencies of occurence of outcome-opening combinations.
 
 **Contingency Table**
+
 Shown below is a portion of the contigency table used in this problem.
 
 <div>
