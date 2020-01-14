@@ -8,7 +8,7 @@ description: "Are chess openings statistically related to the outcome of the gam
 featured: true
 ---
 
-In the game of chess, an **opening** refers to the initial moves of a game. The term can refer to the initial moves by either side, white or black, but an opening by black may also be known as a *defense*. There are dozens of different openings, and hundreds of variants. [The Oxford Companion to Chess](https://en.wikipedia.org/wiki/The_Oxford_Companion_to_Chess) lists 1, 327 named openings and variants. Chess players, including professionals, follow different opening moves as part of their strategy.
+>In the game of chess, an **opening** refers to the initial moves of a game. The term can refer to the initial moves by either side, white or black, but an opening by black may also be known as a *defense*. There are dozens of different openings, and hundreds of variants. [The Oxford Companion to Chess](https://en.wikipedia.org/wiki/The_Oxford_Companion_to_Chess) lists 1, 327 named openings and variants. Chess players, including professionals, follow different opening moves as part of their strategy.
 
 **The goal of this study is to test if there is a relationship between the type of opening move and the outcome of the game.**
 
@@ -339,7 +339,7 @@ Since the chi-square test statistic (9031.31) is greather than the critical valu
 
 ### Conclusion
 
-The results show that there is a significant relationship, specifically dependency, between the outcome of a game and type of opening used based on Chi-Square Test for Interdependence. Thus, it can be concluded that the result of a chess game has a **significant dependency on the opening move**.
+The results show that there is a significant relationship between the outcome of a game and the type of opening used based on Chi-Square Test for Interdependence.
 
 ### Recommendation
 
