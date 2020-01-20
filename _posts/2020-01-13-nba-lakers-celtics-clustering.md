@@ -589,4 +589,4 @@ To further improve the results of the study, the following recommendations are s
 
 ### Final Notes
 
-This project was co-authored by [Rosely Peña](linkedin.com/in/roselydpena) as part of our requirements in MS in Data Science's Data Mining and Wrangling course. If you wish to have a copy of the data and the code used in this project, you may send me a message via [Linked in](https://www.linkedin.com/in/conolcedric).
+This project was co-authored by [Rosely Peña](https://www.linkedin.com/in/roselydpena) as part of our requirements in MS in Data Science's Data Mining and Wrangling course. If you wish to have a copy of the data and the code used in this project, you may send me a message via [Linked in](https://www.linkedin.com/in/conolcedric).
