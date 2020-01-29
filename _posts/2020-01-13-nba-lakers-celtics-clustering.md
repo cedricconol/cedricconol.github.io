@@ -8,6 +8,8 @@ description: "Clustering Celtics and Lakers Players"
 featured: true
 ---
 
+Authors: Cedric Conol, Rosely Peña
+
 >Boston Celtics vs Los Angeles Lakers (formerly _Minneapolis Lakers_) is considered as the NBA's richest rivalry, existing for more than 60 years. The rivalry was at it's peak in the 1980's when Larry Bird and Magic Johnson were in the NBA league. The two teams have met 12 times in the NBA Finals, Boston winning 9 and the Lakers winning 3.
 
 **The objective of this study is to find clusters within the two NBA teams and provide relevant insights on the strengths and weaknesses of each**.
