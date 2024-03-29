@@ -5,7 +5,7 @@ categories: [ clustering, web scraping, sports, nba, basketball, BeautifulSoup, 
 image: assets/images/nba.jpg
 imgsource: "Photo by TJ Dragotta on Unsplash"
 description: "Clustering Celtics and Lakers Players"
-featured: true
+featured: false
 ---
 
 Authors: Cedric Conol, Rosely Peña

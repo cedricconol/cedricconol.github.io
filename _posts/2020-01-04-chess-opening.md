@@ -5,7 +5,7 @@ categories: [ hypothesis testing, web scraping, sports, chess, chi-square, Beaut
 image: assets/images/chess.jpg
 imgsource: "Photo by sk on Unsplash"
 description: "Are chess openings statistically related to the outcome of the game"
-featured: true
+featured: false
 ---
 
 >In the game of chess, an **opening** refers to the initial moves of a game. The term can refer to the initial moves by either side, white or black, but an opening by black may also be known as a *defense*. There are dozens of different openings, and hundreds of variants. [The Oxford Companion to Chess](https://en.wikipedia.org/wiki/The_Oxford_Companion_to_Chess) lists 1, 327 named openings and variants. Chess players, including professionals, follow different opening moves as part of their strategy.
